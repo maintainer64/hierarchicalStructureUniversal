@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.react-flow__controls{
+    top: 50%;
+    left: 15px;
+    bottom: 0;
+    position: absolute;
+    z-index: 5;
+    transform: translate(-50%, 0);
+    height: 107px;
+}
